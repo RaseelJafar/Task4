@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    margin-left: 200px;
+    background-color: antiquewhite;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child1{
+    background-color: rgb(167, 211, 196);
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+    top:0;
+}
+
+button{
+    margin: 10px; /* Add margin to create space between buttons */
+    width: 100%;
+}
+
+
+.child1 ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.child1 li{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.child2{
+    background-color: rgb(165, 217, 200);
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+    top: 0;
+}
+
+
+
+.child2 ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.child2 li{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.child{
+    background-color: rgb(102, 147, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+}
+
+
+
+.child ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.child li{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
